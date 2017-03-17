@@ -13,6 +13,6 @@
      limitations under the License.
 -->
 <resources>
-    <string name="app_name">Court Counter</string>
+    <string name="app_name">League of Legends Score Counter</string>
     <string name="action_settings">Settings</string>
 </resources>

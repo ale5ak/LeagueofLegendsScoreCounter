@@ -24,4 +24,12 @@
         <item name="colorButtonNormal">#FF9800</item>
     </style>
 
+    <style name="BlueButton" parent="Widget.AppCompat.Button">
+        <item name="colorButtonNormal">#2196F3</item>
+    </style>
+
+    <style name="RedButton" parent="Widget.AppCompat.Button">
+        <item name="colorButtonNormal">#D84315</item>
+    </style>
+
 </resources>

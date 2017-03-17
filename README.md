@@ -1,7 +1,7 @@
-Court Counter Sample App
+League of Legends ScoreCounter
 ===================================
 
-Keeps track of basketball scores for two teams. Used in the Udacity Android for Beginners course.
+Modified version of the Courtcounter in the Udacity Android course.
 
 Pre-requisites
 --------------
