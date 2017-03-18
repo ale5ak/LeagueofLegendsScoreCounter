@@ -32,14 +32,14 @@ public class MainActivity extends AppCompatActivity {
     Team blueTeam = new Team(R.id.blue_team_score);
     Team redTeam = new Team(R.id.red_team_score);
 
-    static final String STATE_A_SCORE = "blueTeamScore";
-    static final String STATE_B_SCORE = "redTeamScore";
+    static final String STATE_BLUE_TEAM_SCORE = "blueTeamScore";
+    static final String STATE_RED_TEAM_SCORE = "redTeamScore";
 
     @Override
     protected void onSaveInstanceState(Bundle savedInstanceState) {
         // Save the user's current game state
-        savedInstanceState.putInt(STATE_A_SCORE, blueTeam.getScore());
-        savedInstanceState.putInt(STATE_B_SCORE, redTeam.getScore());
+        savedInstanceState.putInt(STATE_BLUE_TEAM_SCORE, blueTeam.getScore());
+        savedInstanceState.putInt(STATE_RED_TEAM_SCORE, redTeam.getScore());
 
         super.onSaveInstanceState(savedInstanceState);
     }
@@ -52,8 +52,8 @@ public class MainActivity extends AppCompatActivity {
         // Check whether we're recreating a previously destroyed instance
         if (savedInstanceState != null) {
             // Restore value of members from saved state
-            blueTeam.addScore(savedInstanceState.getInt(STATE_A_SCORE));
-            redTeam.addScore(savedInstanceState.getInt(STATE_B_SCORE));
+            blueTeam.addScore(savedInstanceState.getInt(STATE_BLUE_TEAM_SCORE));
+            redTeam.addScore(savedInstanceState.getInt(STATE_RED_TEAM_SCORE));
         }
 
         Button[] buttons = new Button[10];
