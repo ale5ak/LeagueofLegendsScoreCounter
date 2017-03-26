@@ -15,4 +15,13 @@
 <resources>
     <string name="app_name">League of Legends Score Counter</string>
     <string name="action_settings">Settings</string>
+    <string name="blue_team">Blue Team</string>
+    <string name="red_team">Red Team</string>
+    <string name="zero_score">0</string>
+    <string name="penta_kill">Penta Kill!</string>
+    <string name="quadra_kill">Quadra kill</string>
+    <string name="triple_kill">Triple kill</string>
+    <string name="double_kill">Double kill</string>
+    <string name="kill">Kill</string>
+    <string name="new_game">New game</string>
 </resources>
